@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "venv\\Scripts\\python.exe",
+		"editor.formatOnSave": true,
+		"python.formatting.provider": "black",
+		"python.formatting.blackArgs": [
+			"--line-lenght=119"
+		],
+		"python.sortImports.args": [
+			"--profile=black",
+		],
+
+	}
+}
